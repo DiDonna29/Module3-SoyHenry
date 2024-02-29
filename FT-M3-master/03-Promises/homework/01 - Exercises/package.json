@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
+    "start": "nodemon ./exercise-two.js",
     "test": "jest --verbose --detectOpenHandles --forceExit",
     "test:callback": "jest --verbose --detectOpenHandles --forceExit tests/callbacks.test.js",
     "test:promises": "jest --verbose --detectOpenHandles --forceExit tests/promises.test.js"
@@ -12,6 +13,7 @@
   "dependencies": {
     "async": "^3.2.3",
     "chalk": "^4.1.0",
-    "jest": "^27.5.1"
+    "jest": "^27.5.1",
+    "nodemon": "^3.1.0"
   }
 }
